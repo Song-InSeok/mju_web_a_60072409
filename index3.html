@@ -2,66 +2,75 @@
 <html lang="ko">
 <head>
 	<meta charset="utf-8">
-	<title></title>
+	<title>설문</title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
 </head>
 <body>
-		<h1 style="font-size: 0.9em">본 설문조사는 작성자의 익명성을 지켜드리지 않겠습니다</h1>
-	<table>
-		<tr>
-			<th >작성자 이름 : <input type="Text"/></th>
-
-		</tr>
-		<tr>
-			<th >주민등록번호 : <input type="text"/>-<input type="password"/></th>
-
-		</tr>
-		<tr>
-			<th >본인의 외모는? <select name="look" size="1">
-					<option value="못생김">못생김</option>
-					<option value="안잘생김">안잘생김</option>
-					<option value="이상함">이상하게생김</option>
-				</select>
-			</th>
-		</tr>
-		<tr>
-			<th >본인의 성격은?
-				<input type="radio" name="character" value="매우나쁨"/>매우나쁨
-				<input type="radio" name="character" value="많이나쁨"/>많이나쁨
-			</th>
-		</tr>
-		<tr>
-			<th  style="font-size: 0.9em">좋아하는 영화 장르를 모두 고르시오</th>
-		</tr>
-		<tr>
-			<th > 
-				<input type="checkbox" name="movie" value="성인"/>성인영화
-				<input type="checkbox" name="movie" value="에로"/>엘오영화
-				<input type="checkbox" name="movie" value="야한"/>야한영화
-			</th>
-		</tr>
-		<tr>
-			<th  style="font-size: 0.9em">자신을 1000자 내로 서술하시오</th>
-		</tr>
-		<tr>
-			<th >
-				<textarea cols="50" rows="10" name="himself"></textarea>
-			</th>
-		</tr>
-		<tr>
-			<th ><input type="submit"/></th>
-		</tr>
-		<tr>
-			<th  style="font-size: 0.9em" >
+	<div id="wrap">
+		<div id="header">
+			<div id="header_top"><img src="images/top_bar.png" alt="훼이크다!"/></div>
+			<div id="navbar">
 				<ul>
-					<li>목차</li>
-					<li><ol>						
-						<li><a href = "index.html">프로필</a></li>
-						<li><a href = "index2.html">취향</a></li>
-						<li style="color: #432c83; font-size: 1.2em">설문조사</li>
-					</ol></li>
+					<li><a href = "index.html">프로필</a></li>
+					<li><a href = "index2.html">취향</a></li>
+					<li><a href = "index3.html">설문조사</a></li>
 				</ul>
-			</th>
-		</tr>
-	</table>
+			</div>
+		</div>
+		<div id="main_content">
+			<div id="main_big">
+				<h1 style="font-size: 0.9em">본 설문조사는 작성자의 익명성을 지켜드리지 않겠습니다</h1>
+				<table>
+					<tr>
+						<th >작성자 이름 : <input type="Text"/></th>
+
+					</tr>
+					<tr>
+						<th >주민등록번호 : <input type="text"/>-<input type="password"/></th>
+
+					</tr>
+					<tr>
+						<th >본인의 외모는? <select name="look" size="1">
+								<option value="못생김">못생김</option>
+								<option value="안잘생김">안잘생김</option>
+								<option value="이상함">이상하게생김</option>
+							</select>
+						</th>
+					</tr>
+					<tr>
+						<th >본인의 성격은?
+							<input type="radio" name="character" value="매우나쁨"/>매우나쁨
+							<input type="radio" name="character" value="많이나쁨"/>많이나쁨
+						</th>
+					</tr>
+					<tr>
+						<th  style="font-size: 0.9em">좋아하는 영화 장르를 모두 고르시오</th>
+					</tr>
+					<tr>
+						<th > 
+							<input type="checkbox" name="movie" value="성인"/>성인영화
+							<input type="checkbox" name="movie" value="에로"/>엘오영화
+							<input type="checkbox" name="movie" value="야한"/>야한영화
+						</th>
+					</tr>
+					<tr>
+						<th  style="font-size: 0.9em">자신을 1000자 내로 서술하시오</th>
+					</tr>
+					<tr>
+						<th >
+							<textarea cols="50" rows="10" name="himself"></textarea>
+						</th>
+					</tr>
+					<tr>
+						<th ><input type="submit"/></th>
+					</tr>
+				</table>
+			</div>
+			<div id="footer">
+				<p>사실대로 작성하지 않으면 삼대가 대머리가 될겄입니다.</p>
+				<p>Copyright © 이게뭐야. All rights reserved.</p>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
