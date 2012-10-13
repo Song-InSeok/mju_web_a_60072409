@@ -63,21 +63,9 @@ a:hover, a:active {color:#C23700;}
 #header_right{width:400px;float:right;text-align:right;display:inline; padding:40px 30px 0 0;}
 #line {width:960px; height:5px;background-color:#94c713;}
 
-
-/* -- search -- */
-#search {
-	background: #fff url("../images/search-bg.gif") no-repeat 2px center;
-	border: 1px solid #000;
-	width:280px; font-size:14px; line-height:24px; height:24px;
-	padding-left:22px; vertical-align: middle;
-}
-#search_button {height:28px; font-size:14px; 
-  line-height:24px; padding:5px;vertical-align: middle;
-}
-
 /* -- content -- */
 #content {background:#fff; overflow:auto; padding:0;}
-/*#main_content { width:700px; float:left; padding:10px; background:#fff;}*/
+
 #main_content{
 	width:100%;height:100%;background-color:#ffffff;float:left;
 	border-radius: 0 0 15px 15px;
@@ -90,7 +78,7 @@ a:hover, a:active {color:#C23700;}
 	width:45%;height:100%;background-color: #fff;padding-left: 30px;font-size:1.5em;line-height: 1.5em;
 }
 #main_big{
-	width:90%;height:100%;padding:10px;font-size:1.3em;line-height: 1.5em;
+	width:90%;height:100%;padding:10px;font-size:1.2em;line-height: 1.7em;
 }
 #main_big h1{text-align: left;}
 #sub_content { width:240px; float:right;padding:0;background-color:#ddd;height:100%;}
@@ -119,71 +107,8 @@ a:hover, a:active {color:#C23700;}
 #navbar ul li a.selected {background-color:#94c713;}
 #navbar ul li a:hover {background-color:#709647;}
 
+
 /*---------------------------------*/
-
-/*
-#main_content div.section_3, #main_content div.section_1 {
-	width:700px;
-	margin-bottom:20px;
-	border: 1px solid #d7e9f9;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	overflow:auto;
-}
-
-#main_content div.section_3 h1, #main_content div.section_1 h1{
-	width:650px;
-	padding: 4px 6px 4px 44px;
-	background: #d7e9f9;
-	-moz-border-radius-topleft: 5px;
-	-moz-border-radius-topright: 5px;
-	border-radius: 5px 5px 0 0;
-}
-
-#main_content #new_spot h1 { 
-  background: #d7e9f9 url("../images/logo_cal.png") no-repeat 4px center; 
-}
-#main_content #new_review h1 { 
-  background: #d7e9f9 url("../images/logo_doc.png") no-repeat 4px center; 
-}
-#main_content #special_review h1 { 
-  background: #d7e9f9 url("../images/logo_photo.png") no-repeat 4px center; 
-}
-
-#main_content div.section_3 li { 
-	width: 220px; display:block; float:left; margin:5px; 
-}
-div.section_3 li img { float:left;}
-
-#main_content div.section_1 li { 
-	width: 690px; display:block; float:left; margin:5px; 
-}
-div.section_1 li img { float:left;}
-/*---------------------------------*/
-#sub_content div.section {
-	width:240px;
-	margin-bottom:10px;
-	background: #eee;
-	overflow:auto;
-}
-
-#sub_content div.section h1 {
-	width:190px;
-	padding: 4px 6px 4px 44px;
-	background: #7BA191;
-	color:#fff;
-}
-#sub_content #spot_ranking h1 { background: #7BA191 url("../images/logo_camera.png") no-repeat 4px center; }
-#sub_content #qna h1 { background: #7BA191 url("../images/logo_ink.png") no-repeat 4px center; }
-
-#sub_content div.section li {
-	width: 220px;
-	display:block;
-	float:left;
-	margin:5px;
-}
-
-#sub_content div.section li img { float:left;}
 
 .clearfix:after {
 	content: ".";
